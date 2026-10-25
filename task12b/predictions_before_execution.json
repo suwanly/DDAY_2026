@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-10-24T14:29:02.899980+00:00",
+  "tone_hz": 18,
+  "phase_radians": 0,
+  "predictions": {
+    "25": {
+      "nyquist_hz": 12.5,
+      "predicted_alias_hz": 7.0
+    },
+    "12.5": {
+      "nyquist_hz": 6.25,
+      "predicted_alias_hz": 5.5
+    },
+    "6.25": {
+      "nyquist_hz": 3.125,
+      "predicted_alias_hz": 0.75
+    }
+  }
+}

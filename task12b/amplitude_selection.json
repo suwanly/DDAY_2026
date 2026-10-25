@@ -1,0 +1,52 @@
+{
+  "criterion": "Injected tone-only raw power in target \u00b1 one FFT bin >=10x baseline HAR in all activities/channels and original/naive rates",
+  "trials": [
+    {
+      "amplitude": 0.25,
+      "worst_case": {
+        "ratio": 0.1466352207695832,
+        "sample_rate_hz": 6.25,
+        "activity": "WALKING_DOWNSTAIRS",
+        "channel": "body_gyro_x"
+      }
+    },
+    {
+      "amplitude": 0.5,
+      "worst_case": {
+        "ratio": 0.5865408830783329,
+        "sample_rate_hz": 6.25,
+        "activity": "WALKING_DOWNSTAIRS",
+        "channel": "body_gyro_x"
+      }
+    },
+    {
+      "amplitude": 1,
+      "worst_case": {
+        "ratio": 2.3461635323133314,
+        "sample_rate_hz": 6.25,
+        "activity": "WALKING_DOWNSTAIRS",
+        "channel": "body_gyro_x"
+      }
+    },
+    {
+      "amplitude": 2,
+      "worst_case": {
+        "ratio": 9.384654129253326,
+        "sample_rate_hz": 6.25,
+        "activity": "WALKING_DOWNSTAIRS",
+        "channel": "body_gyro_x"
+      }
+    },
+    {
+      "amplitude": 4,
+      "worst_case": {
+        "ratio": 37.5386165170133,
+        "sample_rate_hz": 6.25,
+        "activity": "WALKING_DOWNSTAIRS",
+        "channel": "body_gyro_x"
+      }
+    }
+  ],
+  "selected_amplitude": 4,
+  "units": "same numeric amplitude in g for acceleration and rad/s for angular velocity; controlled synthetic intervention"
+}
