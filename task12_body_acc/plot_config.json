@@ -1,0 +1,21 @@
+{
+  "arguments": {
+    "source": "runs/task12/spectra.npz",
+    "out": "runs/task12_body_acc",
+    "overwrite": false
+  },
+  "source_sha256": "df0f871dfd90aeab700e35e1e129cfa1b5af4fe07a34d3a67b5562ce05cc4279",
+  "script_sha256": "06b92864e4fb42883462a85b2d88d304cc108b68b6813fa299e3cba5b8433a28",
+  "operation": "Replot original cached Task 1.2 raw spectra; no recomputation or tone injection",
+  "channels": [
+    "body_acc_x",
+    "body_acc_y",
+    "body_acc_z"
+  ],
+  "xmax_hz": {
+    "25": 18,
+    "12.5": 10,
+    "6.25": 4
+  },
+  "pdf_count": 18
+}
